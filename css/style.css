@@ -43,12 +43,18 @@ body {
 }
 @keyframes animationbtn {
     0% {
-        background-position: 0;
-    }
-    50% {
         background-position: 200%;
     }
+    25% {
+        background-position: 150%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    75% {
+        background-position: 50%;
+    }
     100% {
-        background-position: 0;
+        background-position: 0%;
     }
 }
